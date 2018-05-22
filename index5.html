@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+	<title>denglu</title>
+	<script src="rem.js"></script>
+	<link rel="stylesheet" href="https://at.alicdn.com/t/font_471281_dw8ldsyjmbfn7b9.css">
+	<link rel="stylesheet" href="css/index5.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+</head>
+<body>
+	<div class="login">
+		<div class="top">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="img/login1_05.png" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/login2_05.png" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/login_05.png" alt="">
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+		<div class="bottom">
+			<input type="text" placeholder="手机号 /邮箱 /小米账号">
+
+			<input type="password" placeholder="密码">
+
+			<input type="button" value="登录">
+		</div>
+		<div class="zc">
+			<a href="zhuce.html">注册账户</a>
+			<a href="">忘记密码</a>
+		</div>
+		<div class="dsf">
+			<a href=""><i class="iconfont">&#xe606;</i>微信</a>
+			<a href=""><i class="iconfont">&#xe644;</i>QQ</a>
+			<a href=""><i class="iconfont">&#xe61c;</i>微博</a>
+		</div>
+		<a href="index.html" class="back iconfont">&#xe612;</a>
+	</div>
+	<script src="swiper.min.js"></script>
+	<script>
+        var swiper = new Swiper('.swiper-container',{
+            direction : 'horizontal',
+            autoplay:true,
+            speed:800,
+            loop:true,
+            // effect : 'fade',
+            // pagination : {
+            //     el:'.swiper-pagination',
+            // },
+            // on:{
+            //     init:function(swiper){
+            //         slide=this.slides.eq(0);
+            //         slide.addClass('ani-slide');
+            //     },
+            //     transitionStart: function(){
+            //         for(i=0;i<this.slides.length;i++){
+            //             slide=this.slides.eq(i);
+            //             slide.removeClass('ani-slide');
+            //         }
+            //     },
+            //     transitionEnd: function(){
+            //         slide=this.slides.eq(this.activeIndex);
+            //         slide.addClass('ani-slide');
+            //
+            //     },
+            // }
+        });
+
+	</script>
+
+</body>
+</html>
