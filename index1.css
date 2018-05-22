@@ -1,0 +1,91 @@
+html{
+	font-size: 50px;
+}
+body{
+	margin: 0px;
+	padding: 0;
+}
+input{
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.zong{
+	width: 7.5rem;
+	height: 13.34rem;
+	background-color: #F3F4F8;	
+}
+.dl{
+	width: 7rem;
+	height: 0.92rem;
+	padding: 0 0.25rem;
+	background-color: #F6F6F6;
+	font-size: 0.36rem;
+	line-height: 0.92rem;
+	text-align: center;
+}
+.dl span{
+	font-size: 0.46rem;
+	float: left;
+	color: #848484;
+}
+.zhuce{
+	width: 7rem;
+	height: 1rem;
+	padding: 0.25rem 0.25rem 0;
+	font-size: 0.26rem;
+	color: #8B8C90;
+	line-height: 1.05rem;
+}
+.xinxi{
+	width: 7.5rem;
+	height: 3.25rem;
+	background-color: #FCFCFC;
+}
+.xinxi .num{
+	width: 7rem;
+	height: 0.98rem;
+	padding: 0 0.25rem;
+	border-bottom: 0.01rem solid #E8E8E8;
+	margin: 0 auto;
+	font-size: 0.26rem;
+	line-height: 0.98rem;
+}
+.xinxi .num .sj{
+	width: 1.35rem;
+	height: 0.98rem;
+	border-right: 0.01rem solid #E8E8E8;
+	float: left;
+}
+.xinxi .num input{
+	width: 3.8rem;
+	height: 0.98rem;
+	padding-left: 0.2rem;
+	float: left;
+	font-size: 0.26rem;
+	background-color: #FCFCFC;
+}
+.xinxi .num .yzm{
+	width: 1.6rem;
+	height: 0.68rem;
+	float: left;
+	font-size: 0.26rem;
+	color: #FEFEFE;
+	background-color: #DFDFDF;
+	line-height: 0.68rem;
+	margin: 0.15rem 0;
+	text-align: center;
+	padding: 0;
+}
+.xinxi .deng{
+	width: 7rem;
+	height: 0.98rem;
+	background-color: #269F2C;
+	color: #fff;
+	font-size: 0.26rem;
+	line-height: 0.98rem;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 0.15rem;
+}
